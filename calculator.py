@@ -1,4 +1,6 @@
 x = float(input("What is your first number? "))
 y = float(input("What is your second number? "))
 
-print(x + y)
+z = round (x+y)
+
+print(f"{z:,}")
