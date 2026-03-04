@@ -14,10 +14,17 @@
 # #Say hello to User
 # print(f"Hello, {last}")
 
-def hello(user="Cod3r"):
-    print("Hello,", user)
+# # defining your own functions
+# def hello(user="Cod3r"):
+#     print("Hello,", user)
 
-hello()
-name = input("What's your name?: ")
-hello(name)
-# print(name)
+# defining main function
+def main():
+    name = input("What's your name?: ")
+    hello(name)
+
+def hello(to="world"):
+    print("Hello,", to)
+
+
+main()
