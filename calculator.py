@@ -3,4 +3,4 @@ y = float(input("What is your second number? "))
 
 z = round(x / y, 5)
 
-print(z)
+print(f"{z:.4f}")
