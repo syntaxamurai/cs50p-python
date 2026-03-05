@@ -38,3 +38,20 @@ if "os" not in test:
     print("Right Sir!")
 else:
     print("Sorry, Sir!")
+
+
+
+#SLICING STRINGS i.e. Choosing what to show
+# Slicing from one index to another (final one not included)
+str = "This is a string I am slicing"
+print(str[4:10])
+# prints from pos 4 to 10
+
+# Slicing from the start
+print(str[:4])
+
+#Slicing to End
+print(str[17:])
+
+#Negative indexing
+print(str[-17:-5])
