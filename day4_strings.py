@@ -55,3 +55,21 @@ print(str[17:])
 
 #Negative indexing
 print(str[-17:-5])
+
+
+# MODIFY STRINGS
+#Uppercase
+case = "           This is a string I will be modifying             "
+print(case.upper())
+
+#lowercase
+print(case.lower())
+
+#Remove whitespaces
+print(case.strip())
+
+#Replace string
+print(case.replace("is a", "is the new"))
+
+#split - case sensitive, does not return the specified separator
+print(case.split("s"))
