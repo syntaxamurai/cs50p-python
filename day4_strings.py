@@ -73,3 +73,10 @@ print(case.replace("is a", "is the new"))
 
 #split - case sensitive, does not return the specified separator
 print(case.split("s"))
+
+
+#CONCATENATE STRINGS
+z = "Hello"
+y = "learner"
+conc = z + " " + y
+print(conc)
