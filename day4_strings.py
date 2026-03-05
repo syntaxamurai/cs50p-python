@@ -102,3 +102,16 @@ print(newtxt)
 #operators
 newtxt = f"The offer price is {20 * 40} Dollars"
 print(newtxt)
+
+
+#self assessment
+assess = "   hello, nAIrobi!   "
+print(len(assess)) #prints the length of the string
+print(assess.upper()) #returns the whole string in uppercase
+print(assess.lower()) #returns the whole string in lowercase
+print(assess.strip()) #Removes whitespaces
+print(assess.strip().capitalize()) #Removes whitespaces and capitalizes the first letter of string
+print(assess.replace("nAIrobi", "coders")) #replaces a word in the string with a given word
+print(assess.split(",")) #splits the string into a list at the provided separator
+print("nAIrobi" in assess) #Checks if a word is in the string, returns true or false
+print(assess[2:9]) #slices the string at the provided indexes
