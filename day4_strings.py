@@ -80,3 +80,25 @@ z = "Hello"
 y = "learner"
 conc = z + " " + y
 print(conc)
+
+
+
+# Python Format Strings - f-strings
+age = 26
+txt = f"My name is Justin, I am {age} years old"
+print(txt)
+
+#Placeholders -variables, operations, functions and modifiers
+#Variable
+price = 300
+txt = f"The price for a months' course is {price} Kenyatta Dollars"
+print(txt)
+
+#modifier - add a collon then legal formatting type
+newprc = 2938
+newtxt = f"The new price for the course is {newprc:.2f}" #.2f means fixed point num with 2 dp
+print(newtxt)
+
+#operators
+newtxt = f"The offer price is {20 * 40} Dollars"
+print(newtxt)
