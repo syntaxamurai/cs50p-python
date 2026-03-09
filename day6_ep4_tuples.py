@@ -9,3 +9,9 @@ print(updated_names)
 
 # print(names)
 # print(updated_names)
+
+#Creating an empty tuple
+empty_tuple = ()
+new_empty_tuple = tuple()
+print(empty_tuple)
+print(new_empty_tuple)
