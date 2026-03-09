@@ -86,3 +86,9 @@ print(name_str)
 #Turn a string to a list
 name_list = name_str.split(' - ')
 print(name_list)
+
+#How to create an empty list
+empty_list = []
+new_empty_list = list()
+print(empty_list)
+print(new_empty_list)
