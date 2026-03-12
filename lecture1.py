@@ -1,4 +1,6 @@
 '''
+
+If else statements
 x = int(input("What's x?: "))
 y = int(input("What's y?: "))
 
@@ -9,6 +11,8 @@ else:
 '''
 
 
+'''
+#Chaining comparison operators
 score = int(input("What is the score?: "))
 
 if score >= 90:
@@ -21,3 +25,14 @@ elif score >= 60:
     print('Grade: D')
 else:
     print('Grade: F')
+
+    '''
+
+#Modulo
+
+x = int(input("What's x?: "))
+
+if x % 2 == 0:
+    print("Even")
+else:
+    print("Odd")
