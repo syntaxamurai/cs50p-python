@@ -26,7 +26,6 @@ def main():
         print("lunch time")
     elif 18.00 <= converted <= 19.00:
         print("dinner time")
-    print("")
 
 
 def convert(time):
